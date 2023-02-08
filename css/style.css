@@ -466,6 +466,12 @@ a:hover {
 }
 
 @media (max-width: 767px) {
+  .margin1, .margin2 {
+    margin-top: -300px;
+  }
+  .margin3 {
+    margin-top: -200px;
+  }
   .hero-bg-1 {
 /*    display: none;*/
   }
