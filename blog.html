@@ -28,7 +28,35 @@
   <link rel="shortcut icon" href="images/whitelogo.png" type="image/x-icon">
   <link rel="icon" href="images/whitelogo.png" type="image/x-icon">
 
- <style>
+  <style>
+      .blog-img-margin-bottom{
+        margin-bottom: 20px;
+      }
+
+      img.blog-img-margin-bottom {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+img.blog-img-margin-bottom:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+a:hover::before {
+  content: "\f141";
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 30px;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
   .whatsapp {
     position: fixed;
     right: 20px;
@@ -50,6 +78,7 @@
     margin-left: 10px;
   }
   </style>
+
 </head>
 
 <body>
@@ -82,7 +111,6 @@
           <li class="nav-item">
             <a class="nav-link page-scroll" href="index.html#team">Testimonials</a>
           </li>
-
           <li class="nav-item">
             <a class="nav-link" href="blog.html">Blog</a>
           </li>
@@ -107,55 +135,64 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center">
-                <h2 class="section-title">Our Services</h2>
-                <p class="mb-100">We are dedicated to helping organizations achieve their full potential.<br>Our team of experts provides a wide range of strategic consulting services designed to drive growth, improve efficiency, and meet business objectives.</p>
+                <h2 class="section-title">Our Latest News</h2>
+                  <p class="mb-5">Our website offers the latest news and updates on various topics of interest. Stay informed and up-to-date by reading our daily blog posts. Our blog covers a wide range of topics, from current events to technology, lifestyle, entertainment, and more. Be sure to check our website regularly for the latest news and updates.</p>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4">
-                <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon blue mb-4"></i>
-                    <h4>Technology consulting</h4>
-                    <p>We help organizations leverage technology for improved efficiency, customer experiences, and a competitive edge. Our technology consulting services provide expert guidance and support for success in a rapidly changing technological landscape.</p>
-                </div>
-            </div>
+  <div class="rounded bg-white p-4 shadow-primary">
+    <a href="blogs/post.html">
+      <img class="blog-img-margin-bottom" src="images/blog-img/2.png" alt="Nature" width="500" height="400">
+    <h4>Technology consulting</h4>
+    <p>We help organizations leverage technology for improved efficiency, customer experiences, and a competitive edge. Our technology consulting services provide expert guidance and support for success in a rapidly changing technological landscape <span style="color: blue;">Read more.........</span></p>
+    </a>
+  </div>
+</div>
+
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon green mb-4"></i>
+                    <a href="#">
+      <img class="blog-img-margin-bottom" src="images/blog-img/1.png" alt="Nature" width="500" height="400">
                     <h4>Social Media Marketing and Handling</h4>
-                    <p>Expert guidance to build a strong social media presence, reach new customers and drive growth. Customized approach and deep expertise for exceptional results.</p>
+                    <p>Expert guidance to build a strong social media presence, reach new customers and drive growth. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+                <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/3.png" alt="Nature" width="500" height="400">
                     <h4>Digital Marketing</h4>
-                    <p>Our consultancy agency offers comprehensive digital marketing solutions to help businesses reach their target audience online. We specialize in search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and content marketing.</p>
+                    <p>Our consultancy agency offers comprehensive digital marketing solutions to help businesses reach their target audience online. We specialize in search engine optimization (SEO), pay-per-click (PPC) advertising, social media marketing, and content marketing <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon blue mb-4"></i>
+                    <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/4.png" alt="Nature" width="500" height="400">
                     <h4>Email Marketing</h4>
-                    <p>We understand the importance of email marketing and its effectiveness in reaching out to potential and existing customers. Our agency provides tailored email marketing solutions to help businesses engage with their audience, promote their products or services, and drive conversions.</p>
+                    <p>We understand the importance of email marketing and its effectiveness in reaching out to potential and existing customers. Our agency provides tailored email marketing solutions to help businesses engage with their audience, promote their products or services, and drive conversions <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon green mb-4"></i>
+                    <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/5.png" alt="Nature" width="500" height="400">
                     <h4>Maintainace and Services</h4>
-                    <p>Our consultancy agency also provides maintenance and services for businesses to ensure their online presence is optimized and up-to-date. We offer website maintenance, security updates, and regular backups to ensure businesses can focus on their core operations without worrying about website issues.</p>
+                    <p>Our consultancy agency also provides maintenance and services for businesses to ensure their online presence is optimized and up-to-date. We offer website maintenance, security updates, and regular backups to ensure businesses can focus on their core operations without worrying about website issues <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+                    <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/6.png" alt="Nature" width="500" height="400">
                     <h4>Search Engine Optimization (SEO)</h4>
-                    <p>Expert support to optimize website and improve discoverability by search engines. Customized approach and deep expertise for exceptional results.</p>
+                    <p>Expert support to optimize website and improve discoverability by search engines. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
 
@@ -163,58 +200,68 @@
 
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon blue mb-4"></i>
+<a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/7.png" alt="Nature" width="500" height="400">
                     <h4>Marketing & Advertising</h4>
-                    <p>Expert guidance to reach new customers, drive growth and align marketing efforts with business goals. Customized approach and deep expertise for exceptional results.</p>
+                    <p>Expert guidance to reach new customers, drive growth and align marketing efforts with business goals. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon green mb-4"></i>
+<a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/8.png" alt="Nature" width="500" height="400">
                     <h4>Website Development</h4>
-                    <p>Expert guidance to establish a strong online presence with a well-designed, user-friendly website. Customized approach and deep expertise for exceptional results.</p>
+                    <p>Expert guidance to establish a strong online presence with a well-designed, user-friendly website. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p></a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+<a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/9.png" alt="Nature" width="500" height="400">
                     <h4>UI & UX Design</h4>
-                    <p>Expert guidance to design with a positive user experience. Customized approach and deep expertise for exceptional results.</p>
+                    <p>Expert guidance to design with a positive user experience. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p></a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon blue mb-4"></i>
+<a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/10.png" alt="Nature" width="500" height="400">
                     <h4>MERN Development</h4>
-                    <p>MERN is a popular stack for building web applications, combining MongoDB, Express, React, and Node.js. Our team of MERN developers has extensive experience in developing high-quality web applications using this technology stack.</p>
+                    <p>MERN is a popular stack for building web applications, combining MongoDB, Express, React, and Node.js. Our team of MERN developers has extensive experience in developing high-quality web applications using this technology stack <span style="color: blue;">Read more.........</span></p></a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon green mb-4"></i>
+<a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/1.png" alt="Nature" width="500" height="400">
                     <h4>Mobile Application Development</h4>
-                    <p>Mobile applications have become a crucial tool for businesses looking to reach their target audience on the go. Our team of mobile application developers will work with you to create a custom mobile application that meets your unique business needs.</p>
+                    <p>Mobile applications have become a crucial tool for businesses looking to reach their target audience on the go. Our team of mobile application developers will work with you to create a custom mobile application that meets your unique business needs <span style="color: blue;">Read more.........</span></p></a>
                 </div>
             </div>
             <!-- service item -->
             <div class="col-sm-6 mb-4 translate-y-150">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon orange mb-4"></i>
+                    <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/2.png" alt="Nature" width="500" height="400">
                     <h4>WordPress Development</h4>
-                    <p>WordPress is a popular platform for building websites and blogs. Our team of WordPress developers has extensive experience in developing custom WordPress websites that are both functional and visually appealing.</p>
-                </div>
+                    <p>WordPress is a popular platform for building websites and blogs. Our team of WordPress developers has extensive experience in developing custom WordPress websites that are both functional and visually appealing <span style="color: blue;">Read more.........</span></p>
+                </a></div>
             </div>
 
             <!-- service item -->
             <div class="col-sm-6 mb-4">
                 <div class="rounded bg-white p-4 shadow-primary">
-                    <i class="ti-layers-alt round-icon green mb-4"></i>
+                  <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/3.png" alt="Nature" width="500" height="400">
                     <h4>E-commerce Website Development</h4>
-                    <p>An e-commerce website is crucial for businesses looking to sell products and services online. Our team of e-commerce developers will work with you to create a custom e-commerce website that is easy to use, secure, and provides a positive user experience for your customers.</p>
+                    <p>An e-commerce website is crucial for businesses looking to sell products and services online. Our team of e-commerce developers will work with you to create a custom e-commerce website that is easy to use, secure, and provides a positive user experience for your customers <span style="color: blue;">Read more.........</span></p></a>
+                </div>
+            </div>
+
+ <div class="col-sm-6 mb-4 translate-y-150">
+                <div class="rounded bg-white p-4 shadow-primary">
+                    <a href="#" ><img class="blog-img-margin-bottom" src="images/blog-img/6.png" alt="Nature" width="500" height="400">
+                    <h4>Search Engine Optimization (SEO)</h4>
+                    <p>Expert support to optimize website and improve discoverability by search engines. Customized approach and deep expertise for exceptional results <span style="color: blue;">Read more.........</span></p>
+    </a>
                 </div>
             </div>
 

@@ -28,6 +28,29 @@
   <link rel="shortcut icon" href="images/whitelogo.png" type="image/x-icon">
   <link rel="icon" href="images/whitelogo.png" type="image/x-icon">
 
+   <style>
+  .whatsapp {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+/*    background-color: #25d366;*/
+/*    color: white;*/
+    font-size: 16px;
+    padding: 10px;
+/*    border-radius: 50%;*/
+/*    box-shadow: 0 2px 5px rgba(0,0,0,0.3);*/
+  }
+  .whatsapp img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+  }
+  </style>
+
 </head>
 
 <body>
@@ -37,7 +60,7 @@
 <section class="fixed-top navigation">
   <div class="container">
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="index.html"><img src="images/4.3.png" alt="logo"></a>
+      <a class="navbar-brand" href="index.html" ><img style="width: 80px; height: 80px;" src="images/4.3.1.png" alt="logo"></a>
       <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -59,6 +82,9 @@
           </li>
           <li class="nav-item">
             <a class="nav-link page-scroll" href="index.html#team">Testimonials</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blog.html">Blog</a>
           </li>
           <!-- <li class="nav-item">
             <a class="nav-link page-scroll" href="index.html#pricing">Pricing</a>
@@ -86,7 +112,7 @@
         </div>
         <div class="row contact-bg p-5 rounded mb-5">
             <div class="col-lg-7 mb-4 mb-lg-0">
-                <form action="#">
+                <form action="https://formspree.io/f/xnqyvekr" method="POST">
                     <input type="text" class="form-control mb-3" id="name" name="name" placeholder="Your Name">
                     <input type="email" class="form-control mb-3" id="mail" name="mail" placeholder="Your Email">
                     <input type="text" class="form-control mb-3" id="subject" name="subject" placeholder="Subject">
@@ -96,7 +122,7 @@
             </div>
             <div class="col-lg-5">
                 <p class="mb-5">We are dedicated to helping organizations achieve their full potential.<br>Our team of experts provides a wide range of strategic consulting services designed to drive growth, improve efficiency, and meet business objectives.</p>
-                <a href="tel:+442081446356" class="text-color h5 d-block">+91 7738100952</a>
+                <a href="tel:+442081446356" class="text-color h5 d-block">+91 6354962658</a>
                 <a href="mailto:info@altostack.io" class="mb-5 text-color h5 d-block">aadisolution01@gmail.com</a>
                 
             </div>
@@ -129,6 +155,11 @@
     <img class="contact-bg-4 left-right-animation" src="images/background-shape/service-half-cycle.png" alt="background-shape">
     <img class="contact-bg-5 up-down-animation" src="images/background-shape/feature-bg-2.png" alt="background-shape">
 </section>
+
+ <a href="https://wa.me/+916354962658" class="whatsapp" target="_blank">
+    <!-- Need Help? -->
+    <img src="images/whatsapp-icon.png" alt="WhatsApp icon">
+  </a>
 <!-- /contact -->
 
 <!-- footer -->
@@ -138,7 +169,7 @@
       <div class="col-lg-4 text-center text-lg-left mb-4 mb-lg-0">
         <!-- logo -->
         <a href="index.html">
-          <img class="img-fluid" src="images/4.3.png" alt="logo">
+          <img class="img-fluid" style="width: 80px; height: 80px;" src="images/4.3.1.png" alt="logo">
         </a>
       </div>
       <!-- footer menu -->
@@ -147,7 +178,7 @@
           <li class="list-inline-item active"><a href="index.html">Home</a></li>
           <li class="list-inline-item"><a class="page-scroll" href="#feature">Feature</a></li>
           <li class="list-inline-item"><a href="about.html">About</a></li>
-          <li class="list-inline-item"><a class="page-scroll" href="#team">Team</a></li>
+          <li class="list-inline-item"><a class="page-scroll" href="#team">Testimonials</a></li>
           <li class="list-inline-item"><a class="page-scroll" href="#pricing">Pricing</a></li>
           <li class="list-inline-item"><a href="contact.html">Contact</a></li>
         </ul>
