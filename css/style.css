@@ -523,6 +523,9 @@ a:hover {
   .hero-bg-5 {
 /*    display: none;*/
   }
+  .mobile-hidden{
+width: 10rem;
+}
 }
 
 .hero-bg-6 {
@@ -1372,6 +1375,96 @@ textarea.form-control {
   }
 }
 
+.blog-img-size{
+ width: 500px;
+ height: 450px; 
+}
+
+.responsive-image {
+   max-width: 100%;
+   height: auto;
+}
+
+.mobile-menu-bg{
+  visibility: none;
+}
+
+@media (max-width: 767px) {
+  .mobile-menu-bg{
+   background: white;
+  }
+}
+
+@media(max-width: 990px) {
+  .hamburger-media{
+    margin-left: 25rem;
+  }
+}
+
+@media(max-width: 770px) {
+  .hamburger-media{
+    margin-left: 20rem;
+  }
+}
+
+@media(max-width: 536px) {
+  .hamburger-media{
+    margin-left: 15rem;
+  }
+}
+
+@media(max-width: 456px) {
+  .hamburger-media{
+    margin-left: 13rem;
+  }
+}
+
+@media(max-width: 425px) {
+  .hamburger-media{
+    margin-left: 10rem;
+  }
+}
+
+@media(max-width: 377px) {
+  .hamburger-media{
+    margin-left: 8rem;
+  }
+}
+
+@media(max-width: 345px) {
+  .hamburger-media{
+    margin-left: 6rem;
+  }
+}
+
+@media(max-width: 315px) {
+  .hamburger-media{
+    margin-left: 5rem;
+  }
+}
+
+@media(max-width: 297px) {
+  .hamburger-media{
+    margin-left: 3rem;
+  }
+}
+
+@media(min-width: 10px) and (max-width: 267px) {
+  .hamburger-media{
+    margin-left: 5%;
+  }
+}
+
+
+.inlineclass{
+  visibility: none;
+}
+
+@media(max-width: 990px){
+  .inlineclass{
+    display: inline;
+  }
+}
 
 
 /*# sourceMappingURL=maps/style.css.map */
